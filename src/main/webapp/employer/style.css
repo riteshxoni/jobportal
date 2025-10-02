@@ -1,0 +1,36 @@
+.sidebar
+{
+    width: 200px;
+}
+.sidebar a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.sidebar a:hover
+{
+    border: 1px solid wheat;
+    color: wheat;
+}
+.sidebar .bi
+{
+    font-size: 20px;
+}
+.sidebar .nav-link
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width:480px)
+{
+    .sidebar
+    {
+        width: 60px;
+    }
+    .sidebar span
+    {
+        display: none;
+    }
+}

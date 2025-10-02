@@ -1,0 +1,49 @@
+*
+{
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.animate
+{
+    transition: 0.3s;
+}
+.animate:hover
+{
+    transform: scale(1.01);
+}
+
+.bg-yg
+{
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.bg-db-sb
+{
+    background: #020024;
+    background: linear-gradient(266deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+header 
+{
+    z-index: 999;  /* High z-index to stay on top */
+}
+
+.job
+{
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.job:hover
+{
+    border: 1px solid grey;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px black;
+}
+
+.logo img
+{
+    height: 150px;
+}
+
